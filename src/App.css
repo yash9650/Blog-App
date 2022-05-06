@@ -1,0 +1,75 @@
+.blog-container{
+    margin-top:8vh;
+    padding: 4px;
+    display:inline-grid;
+    grid-template-columns: auto auto auto;
+    justify-content:space-evenly;
+}
+
+.blog-item{
+    border: 2px solid black;
+    position: relative;
+    height: 90vh;
+    width: 32vw;
+    margin : 5px;
+    overflow: hidden;
+}
+
+.blog-title{
+    overflow: hidden;
+    height: 40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+
+.blog-title-text{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.blog-content{
+    display: -webkit-box;
+    -webkit-line-clamp: 19;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 67.2vh;
+}
+
+.button-container{
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.multiple-buttons{
+    width: 60%;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.form-container{
+    margin-top:18vh;
+    padding: 14px;
+}
+
+#heading{
+    text-align: center;
+}
+
+.blog-container-view{
+    margin-top:8vh;
+    padding: 4px;
+
+}
+
+.blog-item-view{
+    border: 2px solid black;
+    position: relative;
+
+    margin : 5px;
+    overflow: hidden;
+}
